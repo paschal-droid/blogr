@@ -1,0 +1,207 @@
+.hero-page {
+    height: 80vh;
+    position: relative;
+    border-radius: 0 0 0 70px;
+    overflow: hidden;
+    z-index: 1;
+    background: rgb(255, 143, 112);
+    background: linear-gradient(90deg, rgba(255, 143, 112, 1) 35%, rgba(255, 61, 84, 1) 100%);
+}
+
+.bg-img {
+    width: 180rem;
+    right: 450px;
+    bottom: 1500px;
+    position: relative;
+    z-index: -1;
+    background:linear-gradient(rgba(255, 61, 84, 1) 100%, rgba(255, 143, 112, 1) 35%,);
+}
+
+
+                /* NavBar Styling */
+
+.navbar {
+    font-family: "Ubuntu";
+    font-weight: 500;
+    padding: 2% 10% 0;
+}
+ .navbar-brand {
+     font-size: 3rem;
+     font-weight: 700;
+     margin-right: 50px;
+ }
+.navbar-brand a:hover {
+    color: rgba(255, 61, 84, 1);
+}
+
+.nav-item {
+    margin-right: 10px;
+ }
+
+.btn {
+    padding: 7px 20px;
+    font-size: large;
+    border-radius: 20px;
+    font-weight: 500;
+}
+
+.dropdown-menu {
+    background: black;
+    color: rgba(255, 61, 84, 1);
+    border: transparent;
+    border-radius: 20px;
+    opacity: 0.5;
+}
+
+.dropdown-menu a {
+    color: white;
+}
+
+.dropdown-menu a:hover {
+    background: white;
+    color: rgba(255, 61, 84, 1);
+}
+.btn:hover {
+    color: rgba(255, 61, 84, 1);
+}
+
+        /* Hero-content */
+.hero-content {
+    color: white;
+    text-align: center;
+    padding-top: 5%;
+}
+.hero-content h1 {
+    font-family: "overpass";
+    font-size: 3.5rem;
+    font-weight: 600;
+}
+
+.hero-content p {
+    font-family: "overpass";
+    font-size: 18px;
+    font-weight: 300;
+    color: hsl(240, 2%, 79%);
+}
+
+.hero-content button {
+    margin: 10px;
+}
+
+            /* Illustration section */
+
+.illustration .final-cont{
+    padding-top: 10%;
+    text-align: center;
+    overflow: hidden;
+}
+
+.content, .final{
+    padding: 10% 5%;
+    padding-left: 10%;
+    text-align: left;
+    font-family: "Overpass";
+    
+}
+
+h2, .final h2{
+    margin-bottom: 30px;
+    padding-top: 50px;
+    color: hsl(240, 10%, 16%);
+    font-weight: 600;
+}
+
+.content p, .final p{
+    line-height: 2;
+    font-weight: 600;
+    color: hsl(207, 13%, 34%);
+    font-size: large;
+}
+
+.illustration h1 {
+    font-family: "Overpass";
+    margin-top: 100px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.illustration-2 {
+    
+    height: 400px;
+    width: 100%;
+    overflow: hidden;
+    border-radius:0 70px 0 150px;
+    background: linear-gradient(hsl(237, 17%, 21%), hsl(237, 23%, 32%));
+    z-index: -1;
+}
+
+.circle {
+    position: relative;
+    left: -200px;
+    bottom: 900px;
+    z-index: -1;
+    width: 1000px;
+}
+.phones{
+    width: 420px;
+    left: 230px;
+    top: -410px;
+    position: absolute;
+    z-index: -1;
+}
+
+.circle, .phones{
+    padding-top: 400px;
+}
+
+.content, .image {
+    padding-bottom: 200px;
+}
+.illus-cont {
+    text-align: left;
+    padding: 5%;
+    padding-left: 10%;
+    font-family: "Overpass";
+    font-weight: 600;
+
+}
+.illus-cont h2{
+    color: white;
+}
+.illus-cont p {
+    line-height: 2;
+    color: white;  
+}
+
+.final-img {
+    position: relative;
+    left: -350px;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+.footer h1 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.footer h1:hover {
+    color: hsl(207, 13%, 34%);
+}
+
+footer{
+    font-family: "Ubuntu";
+    background: hsl(240, 10%, 16%);
+    padding: 5%;
+    font-weight: 700;
+}
+footer li {
+    color: hsl(207, 13%, 34%);
+}
+
+.footer p, .footer h1{
+    color: white;
+}
+
